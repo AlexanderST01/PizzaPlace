@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using PizzaPlace.Data;
+//using PizzaPlace.Data;
 
 namespace PizzaPlace
 {
@@ -10,7 +10,7 @@ namespace PizzaPlace
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Agregar services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();            
 
